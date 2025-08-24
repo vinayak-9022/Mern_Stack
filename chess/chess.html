@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Board</title>
+    <style>
+      table.chessboard {
+        border: 2px solid #333;
+        border-collapse: collapse;
+        margin: 40px auto;
+      }
+      .chessboard td {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 36px;
+      }
+      .white {
+        background: #f0d9b5;
+      }
+      .black {
+        background: #b58863;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="chessboard">
+      <!-- 8th row: Black pieces -->
+      <tr>
+        <td class="white">&#9820;</td> <!-- Black Rook -->
+        <td class="black">&#9822;</td> <!-- Black Knight -->
+        <td class="white">&#9821;</td> <!-- Black Bishop -->
+        <td class="black">&#9819;</td> <!-- Black Queen -->
+        <td class="white">&#9818;</td> <!-- Black King -->
+        <td class="black">&#9821;</td> <!-- Black Bishop -->
+        <td class="white">&#9822;</td> <!-- Black Knight -->
+        <td class="black">&#9820;</td> <!-- Black Rook -->
+      </tr>
+      <!-- 7th row: Black pawns -->
+      <tr>
+        <td class="black">&#9823;</td>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+        <td class="white">&#9823;</td>
+      </tr>
+      <!-- 6th to 3rd rows: Empty -->
+      <tr>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+      </tr>
+      <tr>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+      </tr>
+      <!-- 2nd row: White pawns -->
+      <tr>
+        <td class="white">&#9817;</td>
+        <td class="black">&#9817;</td>
+        <td class="white">&#9817;</td>
+        <td class="black">&#9817;</td>
+        <td class="white">&#9817;</td>
+        <td class="black">&#9817;</td>
+        <td class="white">&#9817;</td>
+        <td class="black">&#9817;</td>
+      </tr>
+      <!-- 1st row: White pieces -->
+      <tr>
+        <td class="black">&#9814;</td> <!-- White Rook -->
+        <td class="white">&#9816;</td> <!-- White Knight -->
+        <td class="black">&#9815;</td> <!-- White Bishop -->
+        <td class="white">&#9813;</td> <!-- White Queen -->
+        <td class="black">&#9812;</td> <!-- White King -->
+        <td class="white">&#9815;</td> <!-- White Bishop -->
+        <td class="black">&#9816;</td> <!-- White Knight -->
+        <td class="white">&#9814;</td> <!-- White Rook -->
+      </tr>
+    </table>
+  </body>
+</html>
