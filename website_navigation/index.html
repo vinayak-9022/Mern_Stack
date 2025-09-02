@@ -1,0 +1,136 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: mediumvioletred;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        #nav {
+            
+            background-color: #333;
+        }
+
+        #nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        #nav ul li {
+            padding: 14px 20px;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        #nav ul li:hover {
+            background-color: #575757;
+        }
+
+        #input {
+            padding: 14px 20px;
+            
+            margin-right: 10px;
+            border: none;
+            
+        }
+        .searchbar{
+            border: 1px solid black;
+            background-color: white;
+            margin-left: 450px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Website Menu</h3>
+    <div id="nav">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Page</li>
+                <li>Catalog</li>
+                <li>Content</li>
+               <div class="searchbar"> <input id="input"   placeholder="Search....." ><span><i class="fa-solid fa-magnifying-glass"></i></span></div>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
+
+<!--  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Light Box</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    .traffic-box {
+      padding: 20px 20px 10px;
+      border-radius: 12px;
+      width: 150px;
+      text-align: center;
+      position: relative;
+      border: 2px solid #444;
+    }
+
+    .traffic-title {
+      position: absolute;
+      top: -12px;
+      left: 10%;
+      background: #f4f4f4;
+      color: #222;
+      padding: 2px 8px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .light {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 10px auto;
+      border: 2px solid #555;
+    }
+    .light img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="traffic-box">
+    <div class="traffic-title">Boxes</div>
+    <div class="light"><img src="pic.jpg" alt="1"></div>
+    <div class="light"><img src="pic.jpg" alt="2"></div>
+    <div class="light"><img src="pic.jpg" alt="3"></div>
+  </div>
+</body>
+</html>
